@@ -16,7 +16,7 @@ function getUserName(randNumber) {
     if (randNumber > 0.5) {
       resolve({ name: "John", age: 24 });
     } else {
-      reject(new Error("User don't exist"));
+      reject(new Error("User does not exist"));
     }
   });
 }
